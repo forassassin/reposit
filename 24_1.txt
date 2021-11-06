@@ -1,0 +1,32 @@
+
+1) pwd
+2) mkdir homework
+3) cd homework
+4) mkdir home1 home2 home3
+5) cd home1
+6) touch file1.txt; touch file2.txt; touch file3.txt
+   > file4.json; > file5.json
+7) mkdir work1 work2 work3
+8) ls
+9) vim file1.txt
+10) i
+Hello, world!
+11) нажать esc
+   :wq
+   нажать Enter
+12) cd ..
+13) mv home1/file1.txt home2/file1.txt
+    mv home1/file2.txt home2/file2.txt
+14) cp home1/file4.json home2/file4.json
+    cp home1/file5.json home2/file5.json
+15) find -name file1.txt
+16) tail -f 1.txt
+17) head -n3 1.txt
+18) tail -n3 1.txt
+19) less 1.txt
+20) date
+
+Задание со звездочкой:
+1) curl "http://162.55.220.72:5005/object_info_3?name=Vadim&age=32&salary=1000"
+2)создал файл go.txt с командами 3-8 и 13 через точку с запятой
+команда chmod u+x go.txt
